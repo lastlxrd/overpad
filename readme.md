@@ -5,11 +5,11 @@ A custom 12-key mechanical macropad with a rotary encoder, OLED display and RGB,
 <sub>[@lastlxrd](https://github.com/lastlxrd) · 2024</sub>
 
 <p align="center">
-  <img src="docs/overpad1.jpg" width="900">
+  <img src="docs/overpad2.jpg" width="900">
 </p>
 
 <p align="center">
-  <img src="docs/overpad2.jpg" width="900">
+  <img src="docs/overpad1.jpg" width="900">
 </p>
 
 <p align="center">
