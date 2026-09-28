@@ -1,27 +1,98 @@
-# lastlxrd/macropad12
+# OVERPAD
 
-![lastlxrd/macropad12](imgur.com image replace me!)
+A custom 12-key mechanical macropad with a rotary encoder, OLED display and RGB, powered by QMK.
 
-*A short description of the keyboard/project*
+<sub>[@lastlxrd](https://github.com/lastlxrd) · 2024</sub>
 
-* Keyboard Maintainer: [vlad](https://github.com/lastlxrd)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+<p align="center">
+  <img src="docs/overpad1.jpg" width="900">
+</p>
 
-Make example for this keyboard (after setting up your build environment):
+<p align="center">
+  <img src="docs/overpad2.jpg" width="900">
+</p>
 
-    make lastlxrd/macropad12:default
+<p align="center">
+  <img src="docs/overpad3.jpg" width="900">
+</p>
 
-Flashing example for this keyboard:
+OVERPAD is a compact programmable macropad built around the ATmega32U4 and QMK Firmware.
 
-    make lastlxrd/macropad12:default:flash
+## Features
 
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+- 12 mechanical keys
+- Rotary encoder with push button
+- ATmega32U4 microcontroller
+- 128×64 OLED display
+- 12× WS2812 RGB LEDs
+- USB HID
+- QMK Firmware
+- NKRO support
+- Mouse keys and media controls
+- Caterina bootloader
 
-## Bootloader
+## Hardware
 
-Enter the bootloader in 3 ways:
+| Component | Description |
+|---|---|
+| MCU | ATmega32U4 |
+| Keys | 12 mechanical keys |
+| Encoder | Rotary encoder with push button |
+| Display | 128×64 OLED |
+| RGB | 12× WS2812 LEDs |
+| Firmware | QMK |
+| Bootloader | Caterina |
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+## Firmware
+
+The firmware is based on [QMK Firmware](https://qmk.fm/).
+
+The repository contains the keyboard configuration files:
+
+```text
+.
+├── config.h
+├── keyboard.json
+├── rules.mk
+├── docs/
+│   ├── overpad1.jpg
+│   ├── overpad2.jpg
+│   └── overpad3.jpg
+└── README.md
+```
+
+To use the keyboard definition inside a QMK installation, place it in:
+
+```text
+qmk_firmware/keyboards/lastlxrd/overpad/
+```
+
+A QMK keymap can then be placed inside:
+
+```text
+keymaps/default/
+```
+
+and compiled with:
+
+```bash
+qmk compile -kb lastlxrd/overpad -km default
+```
+
+or flashed with:
+
+```bash
+qmk flash -kb lastlxrd/overpad -km default
+```
+
+> A `keymaps/default/keymap.c` file is required to build a complete firmware image.
+
+## About
+
+OVERPAD is an early custom hardware project developed in 2024.
+
+The project combines PCB design, embedded firmware and mechanical keyboard hardware in a compact programmable controller.
+
+## Author
+
+Designed and developed by [lastlxrd](https://github.com/lastlxrd).
