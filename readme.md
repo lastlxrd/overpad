@@ -113,7 +113,7 @@ qmk_firmware/keyboards/lastlxrd/overpad/
 
 A QMK keymap can then be placed inside:
 
-[`keymaps/default/`](keymaps/default/)
+[`keymaps/via/default/`](keymaps/via/default/)
 
 and compiled with:
 
