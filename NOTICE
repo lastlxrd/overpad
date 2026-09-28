@@ -1,0 +1,38 @@
+OVERPAD
+Copyright (C) 2024 lastlxrd (@lastlxrd)
+
+LICENSING
+
+The OVERPAD firmware and keyboard configuration files in this repository
+are licensed under the GNU General Public License, version 2 or (at your
+option) any later version (GPL-2.0-or-later).
+
+A copy of the GNU General Public License version 2 is provided in the
+LICENSE file in the root of this repository.
+
+QMK ATTRIBUTION
+
+OVERPAD firmware is based on / intended for use with QMK Firmware.
+
+QMK Firmware is free and open-source keyboard firmware distributed under
+the GNU General Public License version 2. QMK Firmware and its individual
+components remain copyright of their respective authors and contributors.
+
+QMK Firmware:
+https://qmk.fm/
+https://github.com/qmk/qmk_firmware
+
+Nothing in this notice transfers ownership of QMK Firmware or third-party
+code to the OVERPAD author. Third-party components remain subject to their
+own copyright notices and license terms.
+
+PROJECT MEDIA
+
+Unless explicitly stated otherwise, photographs and other original media
+located in the docs/ directory are:
+
+Copyright (C) 2024 lastlxrd (@lastlxrd)
+All rights reserved.
+
+The GPL license applying to the firmware does not automatically grant
+permission to reuse these photographs or other project media.
