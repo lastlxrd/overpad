@@ -113,7 +113,9 @@ qmk_firmware/keyboards/lastlxrd/overpad/
 
 A QMK keymap can then be placed inside:
 
-[`keymaps/via/default/`](keymaps/via/default/)
+```text id="mnyxy5"
+keymaps/default/ 
+```
 
 and compiled with:
 
