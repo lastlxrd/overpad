@@ -60,9 +60,7 @@ With VIA you can:
 
 The VIA definition is included in the repository:
 
-```text
-keymaps/via/via.json
-```
+[`keymaps/via/via.json`](keymaps/via/via.json)
 
 ### How to customize OVERPAD with VIA
 
@@ -76,9 +74,7 @@ keymaps/via/via.json
 
 5. Load:
 
-```text
-keymaps/via/via.json
-```
+[`keymaps/via/via.json`](keymaps/via/via.json)
 
 6. Return to the **Configure** tab.
 
@@ -117,9 +113,7 @@ qmk_firmware/keyboards/lastlxrd/overpad/
 
 A QMK keymap can then be placed inside:
 
-```text id="8xjpp6"
-keymaps/default/
-```
+[`keymaps/default/`](keymaps/default/)
 
 and compiled with:
 
